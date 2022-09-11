@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Heebo;
+    font-size: 26px;
+    margin: 0;
+    color: #21243D;
+}
+h1,h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+p {
+    font-size: 16px;
+    line-height: calc(24/16*100%);
+}
+/* ------------------------------------------------------------------ */
+._container {
+    margin:  0px auto;
+    padding: 0px 15px;
+}
+/* ------------------------------------------------------------------ */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+/* --HEADER--------------------------------------------------------------- */
+.header {
+    padding-top: 27px;
+}
+.header_container {
+    max-width: 1032px;
+}
+.menu {
+    display: flex;
+    padding:  5px 0px;
+    justify-content: end;
+}
+.menu_list {
+    display: flex;
+}
+.menu_iteam:nth-child(2) {
+    color: #FF6464;
+}
+.menu_iteam:not(:last-child){
+    margin-right: 33px;
+}
+.mennu_link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(29/20*100%);
+    color: inherit;
+}
+/* --MAIN--------------------------------------------------------------- */
+.blog_container {
+    max-width: 681px;
+    padding-top: 106px;
+}
+.blog_list {
+    margin-top: 55px;
+}
+.blog_iteam {
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 29px;
+}
+.blog_iteam > *:not(:last-child) {
+    margin-bottom: 15.5px;
+}
+.blog_iteam:not(:first-child) {
+    margin-top: 32px;
+}
+.blog_inf {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+.blog_date {
+    margin-right: 21px;
+}
+.prof {
+    max-width: 152px;
+    min-height: 21px;
+    border-left: 1px solid #000;
+    padding-left: 26px;
+    color: #8695A4;
+}
+.blog_descr {
+    max-width: 682px;
+}
+@media (max-width: 576px) {
+    .blog_list {
+        margin-top: 18px;
+    } 
+}
+/* --FOOTER--------------------------------------------------------------- */
+.footer {
+    padding-bottom: 54px;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 104px;
+}
+.social_contact:not(:last-child) {
+    margin-right: 35px;
+}
+.footer_text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 26px;
+}

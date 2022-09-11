@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Heebo;
+    font-size: 26px;
+    margin: 0;
+    color: #21243D;
+}
+h1,h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: calc(60/24*100%);
+}
+p {
+    font-size: 16px;
+    line-height: calc(24/16*100%);
+}
+/* ------------------------------------------------------------------ */
+._container {
+    max-width: 681px;
+    margin:  0px auto;
+    padding: 0px 15px;
+}
+._section_title{  
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+/* ------------------------------------------------------------------ */
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+/* --HEADER--------------------------------------------------------------- */
+.header {
+    padding-top: 27px;
+}
+.header_container {
+    max-width: 1032px;
+    box-sizing: content-box;
+    padding: 0px 15px;
+}
+.menu {
+    display: flex;
+    padding:  5px 0px;
+    justify-content: end;
+}
+.menu_list {
+    display: flex;
+}
+.menu_iteam:not(:last-child){
+    margin-right: 33px;
+}
+.mennu_link {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(29/20*100%);
+    color: inherit;
+}
+/* --MAIN--------------------------------------------------------------- */
+.main {
+    padding-top: 78px;
+}
+.main_title {
+    font-size: 34px;
+    line-height: calc(50/34*100%);
+    max-width: 506px;
+}
+.work_info {
+    display: flex;
+    padding-top: 32px;
+}
+.date {
+    background: #FF7C7C;
+    border-radius: 16px;
+    width: 62px;
+    max-height: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 18px;
+    padding-top: 4.5px;
+    padding-bottom: 3px;
+    margin-right: 26px;
+    margin-top: 4.5px;
+}
+.tool {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+.work_descr {
+    margin-top: 23px;
+}
+.detail_img {
+    margin-top: 46px;
+}
+.beginning {
+    margin-bottom: 54px;
+}
+.second_detali {
+    margin-top: 21px;
+}
+.third_detali {
+    margin-top: 36px;
+}
+/* --FOOTER--------------------------------------------------------------- */
+.footer {
+    padding-bottom: 54px;
+}
+.footer_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 134px;
+}
+.social_contact:not(:last-child) {
+    margin-right: 35px;
+}
+.footer_text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 26px;
+}
